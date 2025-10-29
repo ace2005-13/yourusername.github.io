@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ace Justin Dagaraga | Personal Website</title>
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to bottom right, #dbeafe, #fef9c3);
+      color: #1f2937;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #1e3a8a;
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    header img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-bottom: 1rem;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-style: italic;
+    }
+
+    nav {
+      background-color: #263868;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem 0;
+    }
+
+    nav a {
+      color: #72a7dd;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #f6c500;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      background: rgb(185, 255, 249);
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+
+    section:hover {
+      transform: scale(1.01);
+    }
+
+    section h2 {
+      color: #1e3a8a;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #93c5fd;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+
+    .media-item {
+      text-align: center;
+    }
+
+    .media-item img,
+    .media-item video {
+      width: 250px;
+      height: 180px;
+      border-radius: 15px;
+      object-fit: cover;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .media-item img:hover,
+    .media-item video:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    .media-label {
+      margin-top: 0.5rem;
+      font-weight: 500;
+      color: #1e3a8a;
+    }
+
+    .contact a {
+      color: #1d4ed8;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #1e3a8a;
+      color: rgb(133, 219, 255);
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 600px) {
+      .media-item img,
+      .media-item video {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap; 
+  margin-top: 1rem;
+}
+
+.about-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.about-img:hover {
+  transform: scale(1.05);
+}
+
+.about-text {
+  flex: 1;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+@media (max-width: 700px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-img {
+    width: 200px;
+    height: 200px;
+  }
+}
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="c:\codercoder\images\23c72063-0dc2-4b68-a716-9c86612a0a53.jpg" alt="Ace Justin Dagaraga">
+    <h1>Hi there! I’m Ace Justin Dagaraga</h1>
+    <p>and I’m really glad you stopped by!😊</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#skills">Skills</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+<section id="about">
+  <h2>About Me</h2>
+
+  <div class="about-container">
+    <img src="c:\codercoder\images\6057632629336509289.jpg" alt="Ace Justin Dagaraga" class="about-img">
+
+    <div class="about-text">
+      <p style="text-align:justify;">
+        Currently, I’m a college student pursuing a Bachelor of Science in Geodetic Engineering at Holy Trinity University. 
+        I am 20 years old and haven’t proven anything in life yet, still dependent on others.
+        If you happen to be reading this a few years from when I first wrote it—well, I’m probably a bit older by now, chariz! 
+        Anyway, if you’re here to learn more about me, then let’s dive together into the little wonders of this endless journey, eme!
+      </p>
+    </div>
+  </div>
+</section>
+
+
+  <section id="hobbies">
+    <h2>My Hobbies</h2>
+    <p style="text-align:justify;"> 
+        There are several things I’m interested in, and many of them have been my hobbies for quite some time. 
+        Today, I’d love to share them with you. If you were to ask me which one is my absolute favourite, 
+        my answer would be music. I have a deep passion and dedication for it, and through music, I’ve been 
+        able to discover and express my true self. Aside from that, I enjoy watching anime and movies, 
+        cleaning, dancing, playing online games, and travelling. All of these hobbies have 
+        helped shape the person I am today.
+    </p>
+
+    <p style="margin-top: 20px;">Here’s a glimpse of the things I love doing that keep me inspired and happy:</p>
+    <div class="gallery">
+      <div class="media-item">
+        <video src="c:\codercoder\videos\AQPhXlHHy8Yby1N7jYlgdwInmzdixLCQn3AbG_G0J09neWkbAxlorl2DCA5cmNyckKJBjvhPY-xEWj1b9AW00_2d.mp4" controls></video>
+        <p class="media-label">Music</p>
+      </div>
+
+      <div class="media-item">
+        <video src="c:\codercoder\videos\IMG_2996.MP4" controls></video>
+        <p class="media-label">Watching Anime</p>
+      </div>
+
+      <div class="media-item">
+        <img src="c:\codercoder\images\MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_FMjpg_UX1000_.jpg" alt="Movie 1">
+        <img src="c:\codercoder\images\MV5BMjUyNTA3MTAyM15BMl5BanBnXkFtZTgwOTEyMTkyMjE@._V1_FMjpg_UX1000_.jpg" alt="Movie 2">
+        <img src="c:\codercoder\images\Episode-4-Stick-to-the-Team.jpg" alt="Movie 3">
+        <p class="media-label">Watching Movies</p>
+      </div>
+
+      <div class="media-item">
+        <video src="c:\codercoder\videos\IMG_2997.MOV" controls></video>
+        <p class="media-label">Cleaning</p>
+      </div>
+
+      <div class="media-item">
+        <video src="c:\codercoder\videos\IMG_3003.MOV" controls></video>
+        <p class="media-label">Playing Online Games</p>
+      </div>
+
+      <div class="media-item">
+        <video src="c:\codercoder\videos\IMG_8641.MOV" controls></video>
+        <p class="media-label">Travelling</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>My Skills</h2>
+    <p style="text-align:justify;"> 
+       When it comes to my skills, I’d say I’m a pretty well-rounded person. At a young age, 
+       I’ve been blessed with various talents—not to boast, but to share them with you. 
+       I consider myself a jack of all trades and quite flexible in many aspects. 
+       As I mentioned earlier, I’m an engineering student, so I’m naturally good at math. 
+       But of course, not all engineering students excel in math—some are talented in other areas, 
+       and that’s perfectly fine. Aside from academics, I’m also a singer and was once part of a band. 
+       I love dancing too—I’ve been performing since elementary school up to high school. 
+       I also enjoy creative work like photo and video editing, photography, and printing. 
+       On top of that, I’m good at playing badminton—and honestly, there’s still so much 
+       more I’m passionate about!
+    </p>
+
+    <p style="margin-top: 20px;">Here are some of the things I’m passionate about and proud of:</p>
+    <div class="gallery">
+      <div class="media-item">
+        <img src="c:\codercoder\images\462572150_546351024896214_5693440033487375891_n.jpg" alt="Math">
+        <p class="media-label">Answering Math Problems</p>
+      </div>
+
+      <div class="media-item">
+        <video src="c:\codercoder\videos\IMG_3002.MP4" controls></video>
+        <p class="media-label">Dancing</p>
+      </div>
+
+      <div class="media-item">
+        <img src="c:\codercoder\images\IMG_20231214_214312_543.jpg" alt="Singing">
+        <p class="media-label">Singing</p>
+      </div>
+
+      <div class="media-item">
+        <img src="c:\codercoder\images\8b38559b-e4ec-4c54-b4cd-7d3927fe5289.jpg" alt="Video Editing">
+        <img src="c:\codercoder\images\6057632629336509272.jpg" alt="Photography">
+        <img src="c:\codercoder\images\6057632629336509273.jpg" alt="Printing">
+        <p class="media-label">Creative Skills</p>
+      </div>
+
+      <div class="media-item">
+        <video src="c:\codercoder\videos\IMG_2999.MOV" controls></video>
+        <p class="media-label">Playing Badminton</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="achievements">
+    <h2>My Achievements</h2>
+    <p style="text-align:justify;"> 
+       As a student, I can confidently say that everything 
+       I’ve gone through in the past has made me stronger and 
+       more determined. I wouldn’t be where I am today if I 
+       hadn’t worked hard in my studies and faced every challenge 
+       that came my way.
+    </p>
+    <p style="margin-top: 20px;">Here are some of my proudest achievements so far:</p>
+
+    <div class="gallery">
+      <div class="media-item">
+        <img src="c:\codercoder\images\received_451758686930942.jpeg" alt="Jingle Contest">
+        <p class="media-label">Winning the Jingle Contest (Grade 11)</p>
+      </div>
+
+      <div class="media-item">
+        <img src="c:\codercoder\images\IMG_3001.PNG" alt="MAAP Admission">
+        <p class="media-label">Passing the MAAP Admission</p>
+      </div>
+
+      <div class="media-item">
+        <img src="c:\codercoder\images\Messenger_creation_ac12fa7d-9f06-4856-9ef2-54185a107362.jpeg" alt="Graduating with Honors">
+        <p class="media-label">Graduated with Highest Honors (Grade 12)</p>
+      </div>
+
+      <div class="media-item">
+        <img src="c:\codercoder\images\Messenger_creation_36911524-7480-4aff-9de0-e682cc378bab.jpeg" alt="Love">
+        <p class="media-label">Being Loved by the Most Beautiful Woman in my color-blind eyes❤️</p>
+      </div>
+
+      <div class="media-item">
+        <img src="c:\codercoder\images\IMG_20240313_184353.png" alt="Trip to Iloilo">
+        <p class="media-label">First Out-of-Province Trip (Iloilo)</p>
+      </div>
+
+      <div class="media-item">
+        <img src="c:\codercoder\images\6057632629336509274.jpg" alt="Total Station">
+        <p class="media-label">Learned how to use the Total Station</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:acedagaraga@gmail.com">acedagaraga@gmail.com</a></p>
+    <p>Instagram: <a href="https://www.instagram.com/eyssxdgs?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">@eyssxdgs</a></p>
+    <p>Facebook: <a href="https://www.facebook.com/acejustin.dagaraga.145" target="_blank">Ace Justin Dagaraga</a></p>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    © 2025 Ace Justin Dagaraga | All rights reserved.
+  </footer>
+
+</body>
+</html>
